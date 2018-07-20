@@ -1,0 +1,19 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: zbigniew
+  Date: 12.07.18
+  Time: 10:36
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<c:set var="cssStyle" value="display:inline; padding: 10px 40px 10px 0px"/>
+
+<header>
+    <ul>
+        <li style="${cssStyle}"><a href=".">Strona główna</a></li>
+        <li style="${cssStyle}"><a href="./groups">Grupy</a></li>
+        <li style="${cssStyle}"><a href="./panelAdmin">Panel administratora</a></li>
+    </ul>
+</header>
+
